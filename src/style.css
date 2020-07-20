@@ -1,0 +1,243 @@
+/* ------ Header CSS ------- */
+
+.headerContentes {
+    width: auto;
+    height: 80px;
+    background-color:  #272727;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#logo {
+    position: relative;
+    width: 150px;
+    left: 20px;
+}
+
+.headerContentes ul {
+    position: absolute;
+    right: 40px;
+}
+
+.headerContentes li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.headerContentes a:hover {
+    color: #23CC7A;
+}
+
+.headerContentes a {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+
+/* -------- Main CSS --------- */
+
+/*Banner*/
+
+.banner {
+    width: auto;
+    height: 450px;
+    background-image: url(../img/banner_pic.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner section {
+    margin-left: 40px;
+}
+
+.banner section h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.banner section #fontHighlight{
+    width: max-content;
+    height: max-content;
+    background: #23CC7A;
+}
+
+.banner section p {
+    margin-top: 35px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #ffffff;
+}
+/*Software Cards*/
+
+.softwareCards ul {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.softwareCards li {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 40px 10px;
+    box-sizing: border-box;
+    border-color: #23CC7A;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 3%;
+    transition: 0.2s transform;
+}
+
+.softwareCards li:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transform: scale(1.2);
+}
+
+.softwareCards h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: #272727;
+}
+
+.softwareCards p {
+    font-family: 'Montserrat', sans-serif;
+    color: #272727;
+    line-height: 1.2;
+}
+
+.softwareCards img {
+    width: 150px;
+}
+
+.softwareCards button {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 20px;
+    background-color: #23CC7A;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.softwareCards button:hover {
+    background-color: #dadada;
+    color: #272727;
+}
+
+
+/*Formulário*/
+
+.form {
+    margin-top: 100px;
+    width: auto;
+    height: 680px;
+    background-color: rgb(19, 153, 88);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form #formContents {
+    margin-left: 15%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+
+.form input, textarea {
+    margin-top: 10px;
+    margin-bottom: 25px;
+    padding: 8px 25px;
+    font-family: 'Montserrat', sans-serif;
+    border: 0px;
+}
+
+
+.form button {
+    margin-top: 35px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 900;
+    background-color: #23CC7A;
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.5s background;
+    transition: 0.5s color;
+}
+
+.form button:hover {
+    background-color: #dadada;
+    color: #272727;
+}
+
+.form img {
+    position: absolute;
+    right: 15%;
+    width: 40%
+}
+
+
+/* ----- Footer CSS ----- */
+
+.footer {
+    margin-top: 100px;
+    width: auto;
+    height: 120px;
+    background-color: #272727;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #dadada;
+}
+
+.footer h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #dadada;
+    font-size: 14px;
+}
+
+.footer p {
+    font-family: Arial, sans-serif;
+    color: #dadada;
+    position: relative;
+    font-size: 12px;
+    top: 30px;
+}
+
+
+
+
